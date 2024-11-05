@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="26"
+7-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="33" />
+8-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+10-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-77
+11-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-74
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-52
+13-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-49
+14    <uses-feature
+14-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-88
+15        android:name="android.hardware.touchscreen"
+15-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-60
+16        android:required="false" />
+16-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:61-85
+17    <uses-feature
+17-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-99
+18        android:name="android.hardware.touchscreen.multitouch"
+18-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-71
+19        android:required="false" />
+19-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:72-96
+20    <uses-feature
+20-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-108
+21        android:name="android.hardware.touchscreen.multitouch.distinct"
+21-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-80
+22        android:required="false" />
+22-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:81-105
+23
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-63
+24-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:20-60
+25
+26    <uses-feature
+26-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-85
+27        android:name="android.hardware.camera.ar"
+27-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-58
+28        android:required="true" />
+28-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:59-82
+29    <uses-feature
+29-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-83
+30        android:name="com.google.ar.core.depth"
+30-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-56
+31        android:required="true" />
+31-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:57-80
+32
+33    <application android:extractNativeLibs="true" >
+33-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-32:17
+33-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+34        <meta-data
+34-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:5-69
+35            android:name="unity.splash-mode"
+35-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-48
+36            android:value="0" />
+36-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:49-66
+37        <meta-data
+37-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-74
+38            android:name="unity.splash-enable"
+38-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-50
+39            android:value="True" />
+39-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:51-71
+40        <meta-data
+40-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-78
+41            android:name="unity.launch-fullscreen"
+41-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-54
+42            android:value="True" />
+42-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+43        <meta-data
+43-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-84
+44            android:name="unity.allow-resizable-window"
+44-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-59
+45            android:value="False" />
+45-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:60-81
+46        <meta-data
+46-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-81
+47            android:name="notch.config"
+47-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-43
+48            android:value="portrait|landscape" />
+48-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:44-78
+49        <meta-data
+49-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+50            android:name="unity.auto-report-fully-drawn"
+50-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-60
+51            android:value="true" />
+51-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:61-81
+52
+53        <activity
+53-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-29:16
+54            android:name="com.unity3d.player.UnityPlayerActivity"
+54-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:15-68
+55            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+55-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:180-361
+56            android:exported="true"
+56-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:433-456
+57            android:hardwareAccelerated="false"
+57-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:397-432
+58            android:launchMode="singleTask"
+58-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:148-179
+59            android:resizeableActivity="false"
+59-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:362-396
+60            android:screenOrientation="fullUser"
+60-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-147
+61            android:theme="@style/UnityThemeSelector" >
+61-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:69-110
+62            <intent-filter>
+62-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:7-20:23
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-69
+63-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:19-66
+64
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-61
+65-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-58
+66            </intent-filter>
+67
+68            <meta-data
+68-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:7-82
+69                android:name="unityplayer.UnityActivity"
+69-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:18-58
+70                android:value="true" />
+70-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:59-79
+71            <meta-data
+71-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-70
+72                android:name="notch_support"
+72-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:18-46
+73                android:value="true" />
+73-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:47-67
+74
+75            <intent-filter xmlns:android="http://schemas.android.com/apk/res/android" >
+75-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:7-28:23
+75-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:22-80
+76                <action android:name="android.intent.action.VIEW" />
+76-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:9-61
+76-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-58
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:9-68
+78-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:19-65
+79                <category android:name="android.intent.category.BROWSABLE" />
+79-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:9-70
+79-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:19-67
+80
+81                <data
+81-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:9-118
+82                    android:host="com.unityplayeraccounts.2ac25613-9391-4c0d-aac6-15f1503a9bb3"
+82-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:40-115
+83                    android:scheme="unitydl" />
+83-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:15-39
+84            </intent-filter>
+85        </activity>
+86
+87        <meta-data
+87-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:5-88
+88            android:name="unityplayer.SkipPermissionsDialog"
+88-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:16-64
+89            android:value="true" />
+89-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:65-85
+90        <meta-data
+90-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:5-77
+91            android:name="com.google.ar.core"
+91-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:16-49
+92            android:value="required" />
+92-->C:\Users\Admin\Saved Games\AR trial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:50-74
+93    </application>
+94
+95</manifest>

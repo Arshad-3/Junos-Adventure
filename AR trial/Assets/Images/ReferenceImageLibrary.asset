@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5108691047790460546
+  m_GuidHigh: 1603457498628052356
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5053227935266758312
+      m_GuidHigh: 12209404505666972812
+    m_SerializedTextureGuid:
+      m_GuidLow: 12300691932043811232
+      m_GuidHigh: 10574962029186279850
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: demo2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5405704409746117040
+      m_GuidHigh: 17695901159088301952
+    m_SerializedTextureGuid:
+      m_GuidLow: 1784714442908189669
+      m_GuidHigh: 14159778616197802634
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: demo3
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4870346351015140286
+      m_GuidHigh: 2762706819058359466
+    m_SerializedTextureGuid:
+      m_GuidLow: 775769569025274277
+      m_GuidHigh: 10826506820473908571
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: demo5
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5567299795399545328
+      m_GuidHigh: 2363085952325803138
+    m_SerializedTextureGuid:
+      m_GuidLow: 11016935213215393533
+      m_GuidHigh: 1987255830454571003
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: demo66
+    m_Texture: {fileID: 0}
